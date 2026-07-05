@@ -5,11 +5,11 @@ import Home from "./Pages/Home";
 import Cart from "./Components/Cart";
 import Portfolio from "./Portfolio";
 import Footer from "./Components/Footer";
-import { products } from "./data/Products";
+import {products} from "./data/Products";  
 
 function App() {
   // Console.log pour vérifier que App fonctionne
-  console.log("App est en cours d'exécution");
+  console.log("App est en cours d'exécution");     
   
   // État pour les produits du panier
   const [cartItems, setCartItems] = useState([]);
